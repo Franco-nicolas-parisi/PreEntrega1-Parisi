@@ -1,0 +1,11 @@
+.Carrito{
+    height: 40px;
+    width: 40px;
+    padding-right: 3px;
+}
+
+.CarritoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

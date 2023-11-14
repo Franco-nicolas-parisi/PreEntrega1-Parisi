@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #cb773d;
+}
+
+
+.NavbarLogo{
+    height: 300px;
+}
+
+.tituloNavbar p{
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 4px 3px white;
+    margin: 0px;
+    height: 140px;
+}
+
+.navbar-brand{
+    margin: 0px;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    color: white;
+    font-size: 30px;
+}
