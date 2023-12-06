@@ -1,9 +1,36 @@
+import { useEffect, useState } from "react"
 import "./ItemListContainer.css"
+import getProducts from "../getProducts"
+import ItemList from "../ItemList/ItemList"
+import { useParams } from "react-router-dom"
 
-const ItemListContainer = ({greeting}) =>{
+const ItemListContainer = () =>{
+
+    const [products, setProducts] = useState([])
+    const [titulo, setTitulo] = useState("Productos")
+
+    const category = useParams().category
+    console.log(category)
+
+    useEffect(()=>{
+        getProducts()
+            .then((res)=>{
+                if(category){
+                setProducts(res.filter((prod)=>prod.category === category));
+                setTitulo(category);}
+
+                else{
+                    setProducts(res)
+                    setTitulo("Productos")
+                }
+            }
+        )
+    }, [category])
+
+
     return(
         <div className="ItemListContainer">
-            <h1>{greeting}</h1>
+            <ItemList products={products} titulo={titulo}/>
         </div>
     )
 }

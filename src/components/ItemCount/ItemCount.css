@@ -1,0 +1,34 @@
+.Contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ControlesCantidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px
+}
+
+
+.Btt{
+    font-weight: bold;
+    background-color: white;
+    font-size: 1.4rem;
+    &:hover{
+        box-shadow: 3px 3px 3px orange;
+        background-color: black;
+        color: white;
+    }
+}
+
+.Btt-agregar{
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    &:hover{color: orange;    }
+}

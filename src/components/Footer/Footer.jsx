@@ -1,10 +1,11 @@
+import "./Footer.css"
+
 const Footer = () =>{
     return (
-        <div className="container">
-            <div className="row 1">                
+        <div className="container-fluid">
+            <div>
+                <p className="parrafo">Creado por Franco Nicolas Parisi</p>
             </div>
-            <div className="row 2"></div>
-            <div className="row 3"></div>
         </div>
     )
 }

@@ -1,0 +1,28 @@
+
+[
+    {"id":"1",
+    "name":"Milton",
+    "price":"100",
+    "category":"Comida",
+    "img": "./src/components/assets/milton.jpg",
+    "stock":"5",
+    "description": "Perrito mediano"
+    },
+    {"id":"2",
+    "name":"Tito",
+    "price":"50",
+    "category":"Ropa",
+    "img": "./src/components/assets/tito.jpg",
+    "stock":"8",
+    "description": "Perrito chiquito"
+    },   
+    {"id":"3",
+    "name":"Toretto",
+    "price":"150",
+    "category":"Accesorios",
+    "img": "./src/components/assets/toretto.jpg",
+    "stock":"7",
+    "description": "Perrito Gigante"
+    }
+]
+

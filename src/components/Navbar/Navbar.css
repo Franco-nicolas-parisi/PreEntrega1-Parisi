@@ -1,13 +1,22 @@
 .navbar{
     background-color: #cb773d;
+    margin-bottom: 20px;
+}
+
+.navbar-nav{
+    display: flex;
+    gap: 30px;
 }
 
 
-.NavbarLogo{
+.NavbarLogos{
     height: 300px;
+    width: 100%;
 }
 
-.tituloNavbar p{
+.tituloNavbar a{
+    text-decoration: none;
+    color: #1d1c21;
     font-size: 110px;
     font-weight: bold;
     text-shadow: 4px 3px white;
@@ -26,7 +35,8 @@
     align-items: center;
 }
 
-.nav-link{
+.categoria{
     color: white;
     font-size: 30px;
+    text-decoration: none;
 }

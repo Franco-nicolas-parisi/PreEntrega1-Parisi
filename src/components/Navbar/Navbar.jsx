@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import CardWidget from "../CardWidget/CardWidget"
 import NavbarLogos from "../assets/navbar-logos.png"
 import "./Navbar.css"
@@ -9,22 +10,20 @@ const Navbar = () =>{
                     <img src={NavbarLogos} alt="Navbar logos" className="NavbarLogos" />
                     
                     <div className="tituloNavbar">
-                        <p>LOS TRES PULGOSOS</p>
+                        <Link className="titulo" to='/'>LOS TRES PULGOSOS</Link>
                     </div>
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                        <a className="nav-link active" href="#">Alimento</a>
-                        </li>
-                        <li className="nav-item">
-                        <a className="nav-link" href="#">Accesorios</a>
-                        </li>
-                        <li className="nav-item">
-                        <a className="nav-link" href="#">Ropa</a>
-                        </li>
+                    <div className="navbar-nav">
+                        <Link to='/' className="categoria">INICIO</Link>
+
+                        <Link to='/products/Comida' className="categoria">Comida</Link>
+
+                        <Link to='/products/Ropa' className="categoria">Ropa</Link>
+
+                        <Link to='/products/Accesorios' className="categoria">Accesorios</Link>
                         <CardWidget/>
-                    </ul>
+                    </div>
                 </div>
-            </nav>
+        </nav>
     )
 }
 
