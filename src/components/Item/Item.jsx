@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "./Item.css"
+import ItemCount from "../ItemCount/ItemCount"
 
 const Item = ({product}) =>{
     
@@ -13,6 +14,7 @@ const Item = ({product}) =>{
             <p>Categoría: {product.category}</p>
             <p>Descripción: {product.description}</p>
             <Link className="verMas" to={'/item/'+product.id}> VER MAS </Link>
+            <ItemCount/>
         </div>
 
     )
