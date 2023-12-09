@@ -1,3 +1,4 @@
+import ItemCount from "../ItemCount/ItemCount"
 import "./ItemDetail.css"
 
 const ItemDetail = ({item})=> {
@@ -13,6 +14,7 @@ const ItemDetail = ({item})=> {
                     <p>Descripción: {item.description}</p>
                 </div>
             </div>
+            <ItemCount item={item}/>
         </div>
         )
 }
