@@ -16,7 +16,6 @@ const ItemList = ({products, titulo})=>{
                         </div>
                         )
                     })
-                
                 }
             </div>
         </div>

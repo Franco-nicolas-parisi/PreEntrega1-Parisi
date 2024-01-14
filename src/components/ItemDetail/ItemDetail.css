@@ -5,15 +5,15 @@
     gap: 40px;
     margin: 40px;
     width: fit-content;
-    padding: 30px;
-    background-color: #f7cbad;
-    &:hover{
-        box-shadow: 0px 1px 1px 1px black;
-    }
-}
+    padding: 30px;}
 
 .detailContainer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.DetailImg{
+    height: 230px;
+    width: 230px;
 }

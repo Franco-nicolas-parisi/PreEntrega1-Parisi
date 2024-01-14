@@ -11,7 +11,13 @@
 }
 
 .ItemImg{
-    height: 350px;
-    width: 270px;
+    height: 250px;
+    width: 250px;
     margin-bottom: 15px;
+}
+
+.verMas{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }

@@ -39,4 +39,8 @@
     color: white;
     font-size: 30px;
     text-decoration: none;
+    &:hover{
+        color: black;
+        border-radius: 1px solid;
+    }
 }

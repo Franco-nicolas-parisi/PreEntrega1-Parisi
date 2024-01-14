@@ -1,28 +1,52 @@
 
 [
     {"id":"1",
-    "name":"Milton",
-    "price":"100",
+    "name":"Pedigree Adultos 21KG",
+    "price":20000,
     "category":"Comida",
-    "img": "./src/components/assets/milton.jpg",
-    "stock":"5",
-    "description": "Perrito mediano"
+    "img":  "/adultos21kg.png",
+    "stock":5,
+    "description": "Comida para perros adultos"
     },
     {"id":"2",
-    "name":"Tito",
-    "price":"50",
-    "category":"Ropa",
-    "img": "./src/components/assets/tito.jpg",
-    "stock":"8",
-    "description": "Perrito chiquito"
+    "name":"Pedigree Adultos 3KG",
+    "price":3500,
+    "category":"Comida",
+    "img": "/adultos3kg.png",
+    "stock":8,
+    "description": "Comida para perros adultos"
     },   
     {"id":"3",
-    "name":"Toretto",
-    "price":"150",
+    "name":"Collar de cuero",
+    "price":4500,
     "category":"Accesorios",
-    "img": "./src/components/assets/toretto.jpg",
-    "stock":"7",
-    "description": "Perrito Gigante"
+    "img": "/collardecuero.png",
+    "stock":7,
+    "description": "Collar de cuero reforzado"
+    },
+    {"id":"4",
+    "name":"Collar con pañuelo",
+    "price":2000,
+    "category":"Accesorios",
+    "img": "/collarpañuelo.png",
+    "stock":3,
+    "description": "Collar con pañuelo"
+    },
+    {"id":"5",
+    "name":"Buzo blanco Oso Panda",
+    "price":5500,
+    "category":"Ropa",
+    "img": "/buzomanchas.png",
+    "stock":11,
+    "description": "Buzo blanco con manchas"
+    },
+    {"id":"6",
+    "name":"Buzo Oso Panda",
+    "price":7000,
+    "category":"Ropa",
+    "img": "/buzoosopanda.png",
+    "stock":15,
+    "description": "Buzo Oso panda"
     }
 ]
 
