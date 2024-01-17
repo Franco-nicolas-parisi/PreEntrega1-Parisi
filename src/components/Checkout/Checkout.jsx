@@ -44,6 +44,7 @@ const Checkout = () =>{
             <form className="Form-compra" onSubmit={handleSubmit(comprar)}>
                 <input type="text" placeholder="Ingrese su nombre" {...register("nombre")}/>
                 <input type="email" placeholder="Ingrese su e-mail" {...register("email")}/>
+                <input type="email" placeholder="Confirme su e-mail" {...register("emailConfirmado")}/>
                 <input type="phone" placeholder="Ingrese su número de teléfono"{...register("phone")}/>
                 <button className="btt-submit" type="submit">ENVIAR DATOS Y CONFIRMAR COMPRA</button>
             </form>

@@ -7,6 +7,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import { CartProvider } from './components/Context/CartContext'
 import Carrito from './components/Carrito/Carrito'
 import Checkout from './components/Checkout/Checkout'
+import Error from './components/Error/Error.jsx'
 
 
 
@@ -25,6 +26,7 @@ function App() {
                   <Route path='/item/:id' element={<ItemDetailContainer/>}/>
                   <Route path='/carrito' element={<Carrito/>}/>
                   <Route path='/Checkout' element={<Checkout/>}/>
+                  <Route path={'*'} element={<Error/>}/>
                 </Routes>
               </BrowserRouter>
             <Footer/>
