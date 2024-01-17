@@ -2,7 +2,8 @@
 import { useContext } from "react"
 import "./CardWidget.css"
 import { Link } from "react-router-dom"
-import { CartContext, CartProvider } from "../Context/CartContext"
+import { CartContext} from "../Context/CartContext"
+
 
 const CardWidget = () =>{
 
@@ -10,9 +11,9 @@ const CardWidget = () =>{
 
     return(
         <div className="CarritoContainer">
-            <Link to='/carrito' className="carrito"> 
-                Carrito  
-                <span>{cantidadEnCarrito()}</span>
+            <Link to='/carrito' className="carrito">
+                <i class="bi bi-cart3"></i> 
+                <span>  {cantidadEnCarrito()}  </span>
             </Link>
         </div>
     )

@@ -1,0 +1,61 @@
+.checkout-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px 100px 0px;
+}
+
+h1{
+    padding-bottom: 30px;
+}
+
+.Form-compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.btt-submit{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 25px;
+    width: 100%;
+    &:hover{
+        color: black;
+        box-shadow: rgb(137, 228, 157) 0px 0px 5px 5px
+    }
+
+}
+
+input{
+    width: 100%;
+    height: 2rem;
+    font-size: 1.3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 100px 50px 100px;
+}
+
+.container p{
+    font-size: 30px;
+    background-color: black;
+    color: rgba(251,138,63,0.9275307535123425);
+    width: 70%;
+    text-align: center;
+}
+
+.container h1{
+    font-weight: bold;
+    text-shadow: white 2px 2px;
+}
